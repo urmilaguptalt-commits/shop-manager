@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Surface effect */
+  .glass-surface {
+    @apply bg-white/70 dark:bg-slate-800/70 backdrop-blur-md border border-white/20 dark:border-slate-700/50 shadow-xl;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-medium text-white transition duration-300 ease-out bg-teal-600 rounded-lg hover:bg-teal-700 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-medium text-slate-700 dark:text-slate-200 transition duration-300 ease-out bg-slate-200 dark:bg-slate-700 rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600 active:scale-95 disabled:opacity-50;
+  }
+
+  /* Form inputs */
+  .input-field {
+    @apply block w-full px-4 py-2.5 text-sm text-gray-900 bg-white border border-gray-300 rounded-lg focus:ring-teal-500 focus:border-teal-500 dark:bg-slate-800 dark:border-slate-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-500 dark:focus:border-teal-500 transition-shadow duration-200 shadow-sm focus:shadow-teal-500/30;
+  }
+}
