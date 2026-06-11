@@ -1,0 +1,2586 @@
+// Consolidated Shop Management Data
+const shopData = {
+  "users": [
+    {
+      "id": 1,
+      "name": "vaibhav",
+      "email": "vaibhav",
+      "role": "owner"
+    },
+    {
+      "id": 2,
+      "name": "arpita",
+      "email": "arpita@shop.com",
+      "role": "owner"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Samsung Electronics",
+      "contact_person": "Ramesh Kumar",
+      "phone": "7854123690",
+      "email": "rameshkumar@gmail.com",
+      "category": "Smartphones"
+    },
+    {
+      "id": 5,
+      "name": "Samsung Electronics",
+      "contact_person": "Ramesh Kumar",
+      "phone": "786521401",
+      "email": "ramesh@gmail.com",
+      "category": "Smartphones"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Electronics",
+      "contact_person": "Ramesh Kumar",
+      "phone": "9845142510",
+      "email": "rameshkumar@gmail.com",
+      "category": "Smartphone"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Electronics",
+      "contact_person": "Ramesh Kumar",
+      "phone": "7854125682",
+      "email": "rameshkumar@gmail.com",
+      "category": "Samsung"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Electronics India",
+      "contact_person": "Ramesh Kumar",
+      "phone": "9876543201",
+      "email": "ramesh@samsung.in",
+      "category": "Smartphones"
+    },
+    {
+      "id": 9,
+      "name": "Apple India Pvt Ltd",
+      "contact_person": "Priya Sharma",
+      "phone": "9876543202",
+      "email": "priya@apple.in",
+      "category": "Smartphones"
+    },
+    {
+      "id": 10,
+      "name": "Xiaomi Technology India",
+      "contact_person": "Anil Gupta",
+      "phone": "9876543203",
+      "email": "anil@xiaomi.in",
+      "category": "Smartphones"
+    },
+    {
+      "id": 11,
+      "name": "boAt Lifestyle",
+      "contact_person": "Neha Verma",
+      "phone": "9876543204",
+      "email": "neha@boat.in",
+      "category": "Accessories"
+    },
+    {
+      "id": 12,
+      "name": "Dell India Pvt Ltd",
+      "contact_person": "Suresh Rao",
+      "phone": "9876543205",
+      "email": "suresh@dell.in",
+      "category": "Laptops"
+    },
+    {
+      "id": 13,
+      "name": "HP India Solutions",
+      "contact_person": "Kavita Singh",
+      "phone": "9876543206",
+      "email": "kavita@hp.in",
+      "category": "Laptops"
+    },
+    {
+      "id": 14,
+      "name": "Realme India Distributors",
+      "contact_person": "Mohit Joshi",
+      "phone": "9876543207",
+      "email": "mohit@realme.in",
+      "category": "Smartphones"
+    },
+    {
+      "id": 15,
+      "name": "Sony India Electronics",
+      "contact_person": "Deepa Nair",
+      "phone": "9876543208",
+      "email": "deepa@sony.in",
+      "category": "Audio & TV"
+    },
+    {
+      "id": 16,
+      "name": "OnePlus India",
+      "contact_person": "Arjun Mehta",
+      "phone": "9876543209",
+      "email": "arjun@oneplus.in",
+      "category": "Smartphones"
+    },
+    {
+      "id": 17,
+      "name": "Syska Electronics",
+      "contact_person": "Ritu Pandey",
+      "phone": "9876543210",
+      "email": "ritu@syska.in",
+      "category": "Accessories"
+    },
+    {
+      "id": 18,
+      "name": "Samsung Electronics",
+      "contact_person": "Ramesh Kumar",
+      "phone": "7854123698",
+      "email": "Ramesh@gmail.com",
+      "category": "Smartphones"
+    },
+    {
+      "id": 19,
+      "name": "Samsung India",
+      "contact_person": "Rajesh Kumar",
+      "phone": "9876543210",
+      "email": "sales@samsung.in",
+      "category": "Electronics"
+    },
+    {
+      "id": 20,
+      "name": "Apple Distributors",
+      "contact_person": "Anita Sharma",
+      "phone": "9123456789",
+      "email": "contact@apple-dist.com",
+      "category": "Mobile"
+    },
+    {
+      "id": 21,
+      "name": "Dell Enterprise",
+      "contact_person": "Suresh Gupta",
+      "phone": "9988776655",
+      "email": "suresh@dell.co.in",
+      "category": "Computing"
+    },
+    {
+      "id": 22,
+      "name": "Dolby ATMOS DBG Technology",
+      "contact_person": "SANJAY SINHA",
+      "phone": "5478125412",
+      "email": "sanjay@gmil.com",
+      "category": "Xiaomi Tablets"
+    },
+    {
+      "id": 23,
+      "name": "Samsung ELectronics",
+      "contact_person": "Sanjay Sinha",
+      "phone": "7854125896",
+      "email": "sanjay@gmail.com",
+      "category": "Smartphones"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "sku": "IP15P-256",
+      "category": "Mobile",
+      "price": 134900.0,
+      "cost_price": 115000.0,
+      "stock_qty": 33,
+      "min_stock": 5,
+      "supplier_id": 20,
+      "brand": "Apple",
+      "specs": "{\"RAM\": \"8GB\", \"Storage\": \"256GB\", \"Color\": \"Titanium\"}",
+      "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S24 Ultra",
+      "sku": "S24U-512",
+      "category": "Mobile",
+      "price": 129999.0,
+      "cost_price": 110000.0,
+      "stock_qty": 17,
+      "min_stock": 5,
+      "supplier_id": 19,
+      "brand": "Samsung",
+      "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+      "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Dell XPS 15",
+      "sku": "XPS15-9530",
+      "category": "Computing",
+      "price": 185000.0,
+      "cost_price": 160000.0,
+      "stock_qty": 9,
+      "min_stock": 3,
+      "supplier_id": 21,
+      "brand": "Dell",
+      "specs": "{\"CPU\": \"i9\", \"RAM\": \"32GB\", \"SSD\": \"1TB\"}",
+      "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "MacBook Air M3",
+      "sku": "MBA-M3-13",
+      "category": "Computing",
+      "price": 114900.0,
+      "cost_price": 95000.0,
+      "stock_qty": 25,
+      "min_stock": 10,
+      "supplier_id": 20,
+      "brand": "Apple",
+      "specs": "{\"Chip\": \"M3\", \"RAM\": \"8GB\", \"SSD\": \"256GB\"}",
+      "image_url": "https://images.unsplash.com/photo-1517336714460-4c50d117900b?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": 5,
+      "name": "Samsung QLED 4K TV",
+      "sku": "QLED-55",
+      "category": "Electronics",
+      "price": 85000.0,
+      "cost_price": 65000.0,
+      "stock_qty": 8,
+      "min_stock": 2,
+      "supplier_id": 19,
+      "brand": "Samsung",
+      "specs": "{\"Size\": \"55 inch\", \"Panel\": \"QLED\"}",
+      "image_url": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 6,
+      "name": "Redmi Pad 2 Wi-Fi + Cellular",
+      "sku": "2505DRP06I",
+      "category": "Tablet",
+      "price": 22000.0,
+      "cost_price": 12000.0,
+      "stock_qty": 14,
+      "min_stock": 10,
+      "supplier_id": 10,
+      "brand": "Redmi",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": 7,
+      "name": "Legion Pro Max",
+      "sku": "LPM-900",
+      "category": "Laptop",
+      "price": 145000.0,
+      "cost_price": 116000.0,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 13,
+      "brand": "Lenovo",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 8,
+      "name": "X-Phone Ultra",
+      "sku": "XPU-882",
+      "category": "Smartphone",
+      "price": 112000.0,
+      "cost_price": 89600.0,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 8,
+      "brand": "X-Brand",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 9,
+      "name": "Chronos Watch V2",
+      "sku": "CW-20",
+      "category": "Smartwatch",
+      "price": 34500.0,
+      "cost_price": 27600.0,
+      "stock_qty": 19,
+      "min_stock": 5,
+      "supplier_id": 11,
+      "brand": "Chronos",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 10,
+      "name": "Aura Sound Pro",
+      "sku": "ASP-01",
+      "category": "Headphones",
+      "price": 28999.0,
+      "cost_price": 23199.2,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 15,
+      "brand": "Aura",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 11,
+      "name": "Alpha Cam Z9",
+      "sku": "AC-Z9",
+      "category": "Camera",
+      "price": 320000.0,
+      "cost_price": 256000.0,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 15,
+      "brand": "Alpha",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 12,
+      "name": "Tab Master X",
+      "sku": "TMX-99",
+      "category": "Tablet",
+      "price": 85000.0,
+      "cost_price": 68000.0,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 8,
+      "brand": "TabMaster",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 13,
+      "name": "Aero Drone 4K",
+      "sku": "AD-4K",
+      "category": "Drone",
+      "price": 155000.0,
+      "cost_price": 124000.0,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 11,
+      "brand": "Aero",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 14,
+      "name": "Vision VR Pro",
+      "sku": "VR-200",
+      "category": "VR Headset",
+      "price": 72000.0,
+      "cost_price": 57600.0,
+      "stock_qty": 20,
+      "min_stock": 5,
+      "supplier_id": 9,
+      "brand": "Vision",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": 21,
+      "name": "Apple Watch Ultra",
+      "sku": "AW-ULTRA-2",
+      "category": "Wearables",
+      "price": 89900.0,
+      "cost_price": 75000.0,
+      "stock_qty": 18,
+      "min_stock": 10,
+      "supplier_id": 9,
+      "brand": "Apple",
+      "specs": null,
+      "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+    }
+  ],
+  "product_units": [],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Vaibhav Singh",
+      "phone": "9876543210",
+      "email": "vaibhav@example.com",
+      "total_purchases": 0.0
+    },
+    {
+      "id": 2,
+      "name": "rekha srivastava",
+      "phone": "1254789630",
+      "email": "rekha@gmail.com",
+      "total_purchases": 152220.0
+    },
+    {
+      "id": 3,
+      "name": "shejal",
+      "phone": "7854218596",
+      "email": "shejal@gamil.com",
+      "total_purchases": 158002.0
+    },
+    {
+      "id": 4,
+      "name": "shivani gupta",
+      "phone": "7854214587",
+      "email": "shivani@gmail.com",
+      "total_purchases": 39766.0
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "invoice_number": "INV-1777776976",
+      "customer_id": null,
+      "date": "2026-05-03 08:26:16.933022",
+      "subtotal": 143900.0,
+      "gst_amount": 25902.0,
+      "total": 169802.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 2,
+      "invoice_number": "INV-1777777627",
+      "customer_id": null,
+      "date": "2026-05-03 08:37:07.726094",
+      "subtotal": 145000.0,
+      "gst_amount": 26100.0,
+      "total": 171100.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 3,
+      "invoice_number": "INV-1777783944",
+      "customer_id": null,
+      "date": "2026-05-03 10:22:24.416174",
+      "subtotal": 71540.0,
+      "gst_amount": 12877.2,
+      "total": 84417.2,
+      "status": "paid",
+      "payment_mode": "card",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 4,
+      "invoice_number": "INV-1777784311",
+      "customer_id": null,
+      "date": "2026-05-03 10:28:31.136363",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 5,
+      "invoice_number": "INV-1777784372",
+      "customer_id": null,
+      "date": "2026-05-03 10:29:32.747858",
+      "subtotal": 71500.0,
+      "gst_amount": 12870.0,
+      "total": 84370.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 6,
+      "invoice_number": "INV-1777784512",
+      "customer_id": null,
+      "date": "2026-05-03 10:31:52.598926",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 7,
+      "invoice_number": "INV-1777785376",
+      "customer_id": null,
+      "date": "2026-05-03 10:46:16.222807",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 8,
+      "invoice_number": "INV-1777785718",
+      "customer_id": null,
+      "date": "2026-05-03 10:51:58.765497",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 9,
+      "invoice_number": "INV-1777785721",
+      "customer_id": null,
+      "date": "2026-05-03 10:52:01.571740",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 10,
+      "invoice_number": "INV-1777785843",
+      "customer_id": null,
+      "date": "2026-05-03 10:54:03.902035",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 11,
+      "invoice_number": "INV-1777785859",
+      "customer_id": null,
+      "date": "2026-05-03 10:54:19.346727",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 12,
+      "invoice_number": "INV-1777785860",
+      "customer_id": null,
+      "date": "2026-05-03 10:54:20.793589",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 13,
+      "invoice_number": "INV-1777785863",
+      "customer_id": null,
+      "date": "2026-05-03 10:54:23.981381",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 14,
+      "invoice_number": "INV-1777785866",
+      "customer_id": null,
+      "date": "2026-05-03 10:54:26.460269",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 15,
+      "invoice_number": "INV-1777785867",
+      "customer_id": null,
+      "date": "2026-05-03 10:54:27.951690",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 16,
+      "invoice_number": "INV-1777785941",
+      "customer_id": null,
+      "date": "2026-05-03 10:55:41.745907",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 17,
+      "invoice_number": "INV-1777785946",
+      "customer_id": null,
+      "date": "2026-05-03 10:55:46.637355",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 18,
+      "invoice_number": "INV-1777785948",
+      "customer_id": null,
+      "date": "2026-05-03 10:55:48.094796",
+      "subtotal": 72000.0,
+      "gst_amount": 12960.0,
+      "total": 84960.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 19,
+      "invoice_number": "INV-1777785989",
+      "customer_id": null,
+      "date": "2026-05-03 10:56:29.160547",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 20,
+      "invoice_number": "INV-1777785991",
+      "customer_id": null,
+      "date": "2026-05-03 10:56:31.989719",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 21,
+      "invoice_number": "INV-1777785993",
+      "customer_id": null,
+      "date": "2026-05-03 10:56:33.077534",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 22,
+      "invoice_number": "INV-1777785994",
+      "customer_id": null,
+      "date": "2026-05-03 10:56:34.240269",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 23,
+      "invoice_number": "INV-1777786051",
+      "customer_id": null,
+      "date": "2026-05-03 10:57:31.955873",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 24,
+      "invoice_number": "INV-1777786053",
+      "customer_id": null,
+      "date": "2026-05-03 10:57:33.610373",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 25,
+      "invoice_number": "INV-1777786054",
+      "customer_id": null,
+      "date": "2026-05-03 10:57:34.571003",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 26,
+      "invoice_number": "INV-1777786055",
+      "customer_id": null,
+      "date": "2026-05-03 10:57:35.707124",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": []
+    },
+    {
+      "id": 27,
+      "invoice_number": "INV-1777786141",
+      "customer_id": null,
+      "date": "2026-05-03 10:59:01.028242",
+      "subtotal": 134900.0,
+      "gst_amount": 24282.0,
+      "total": 159182.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": [
+        {
+          "id": 1,
+          "invoice_id": 27,
+          "product_id": 1,
+          "quantity": 1,
+          "unit_price": 134900.0,
+          "total_price": 134900.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 1,
+            "name": "iPhone 15 Pro",
+            "sku": "IP15P-256",
+            "category": "Mobile",
+            "price": 134900.0,
+            "cost_price": 115000.0,
+            "stock_qty": 33,
+            "min_stock": 5,
+            "supplier_id": 20,
+            "brand": "Apple",
+            "specs": "{\"RAM\": \"8GB\", \"Storage\": \"256GB\", \"Color\": \"Titanium\"}",
+            "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "invoice_number": "INV-1777786732",
+      "customer_id": null,
+      "date": "2026-05-03 11:08:52.156084",
+      "subtotal": 145000.0,
+      "gst_amount": 26100.0,
+      "total": 171100.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": [
+        {
+          "id": 2,
+          "invoice_id": 28,
+          "product_id": 101,
+          "quantity": 1,
+          "unit_price": 145000.0,
+          "total_price": 145000.0,
+          "product_unit_id": null,
+          "product": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "invoice_number": "INV-1777787107",
+      "customer_id": null,
+      "date": "2026-05-03 11:15:07.758818",
+      "subtotal": 154600.0,
+      "gst_amount": 27828.0,
+      "total": 182428.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": [
+        {
+          "id": 3,
+          "invoice_id": 29,
+          "product_id": 107,
+          "quantity": 1,
+          "unit_price": 155000.0,
+          "total_price": 155000.0,
+          "product_unit_id": null,
+          "product": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "invoice_number": "INV-1777816495",
+      "customer_id": null,
+      "date": "2026-05-03 19:24:55.801801",
+      "subtotal": 85000.0,
+      "gst_amount": 14400.0,
+      "total": 94400.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": [
+        {
+          "id": 4,
+          "invoice_id": 30,
+          "product_id": 106,
+          "quantity": 1,
+          "unit_price": 85000.0,
+          "total_price": 85000.0,
+          "product_unit_id": null,
+          "product": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "invoice_number": "INV-1777816718",
+      "customer_id": 2,
+      "date": "2026-05-03 19:28:38.096965",
+      "subtotal": 129999.0,
+      "gst_amount": 23220.0,
+      "total": 152220.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": {
+        "id": 2,
+        "name": "rekha srivastava",
+        "phone": "1254789630",
+        "email": "rekha@gmail.com",
+        "total_purchases": 152220.0
+      },
+      "items": [
+        {
+          "id": 5,
+          "invoice_id": 31,
+          "product_id": 2,
+          "quantity": 1,
+          "unit_price": 129999.0,
+          "total_price": 129999.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 2,
+            "name": "Galaxy S24 Ultra",
+            "sku": "S24U-512",
+            "category": "Mobile",
+            "price": 129999.0,
+            "cost_price": 110000.0,
+            "stock_qty": 17,
+            "min_stock": 5,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+            "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "invoice_number": "INV-1777945456",
+      "customer_id": 3,
+      "date": "2026-05-05 07:14:16.353962",
+      "subtotal": 134900.0,
+      "gst_amount": 24102.0,
+      "total": 158002.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": {
+        "id": 3,
+        "name": "shejal",
+        "phone": "7854218596",
+        "email": "shejal@gamil.com",
+        "total_purchases": 158002.0
+      },
+      "items": [
+        {
+          "id": 6,
+          "invoice_id": 32,
+          "product_id": 1,
+          "quantity": 1,
+          "unit_price": 134900.0,
+          "total_price": 134900.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 1,
+            "name": "iPhone 15 Pro",
+            "sku": "IP15P-256",
+            "category": "Mobile",
+            "price": 134900.0,
+            "cost_price": 115000.0,
+            "stock_qty": 33,
+            "min_stock": 5,
+            "supplier_id": 20,
+            "brand": "Apple",
+            "specs": "{\"RAM\": \"8GB\", \"Storage\": \"256GB\", \"Color\": \"Titanium\"}",
+            "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "invoice_number": "INV-1777947421",
+      "customer_id": 3,
+      "date": "2026-05-05 07:47:01.793182",
+      "subtotal": 22000.0,
+      "gst_amount": 3862.0,
+      "total": 25318.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": {
+        "id": 3,
+        "name": "shejal",
+        "phone": "7854218596",
+        "email": "shejal@gamil.com",
+        "total_purchases": 158002.0
+      },
+      "items": [
+        {
+          "id": 7,
+          "invoice_id": 33,
+          "product_id": 6,
+          "quantity": 1,
+          "unit_price": 22000.0,
+          "total_price": 22000.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 6,
+            "name": "Redmi Pad 2 Wi-Fi + Cellular",
+            "sku": "2505DRP06I",
+            "category": "Tablet",
+            "price": 22000.0,
+            "cost_price": 12000.0,
+            "stock_qty": 14,
+            "min_stock": 10,
+            "supplier_id": 10,
+            "brand": "Redmi",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "invoice_number": "INV-1777947832",
+      "customer_id": null,
+      "date": "2026-05-05 07:53:52.615756",
+      "subtotal": 99900.0,
+      "gst_amount": 16463.0,
+      "total": 107923.0,
+      "status": "paid",
+      "payment_mode": "card",
+      "customer": null,
+      "items": [
+        {
+          "id": 8,
+          "invoice_id": 34,
+          "product_id": 19,
+          "quantity": 1,
+          "unit_price": 99900.0,
+          "total_price": 99900.0,
+          "product_unit_id": null,
+          "product": null
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "invoice_number": "INV-1777947950",
+      "customer_id": 4,
+      "date": "2026-05-05 07:55:50.025201",
+      "subtotal": 34500.0,
+      "gst_amount": 6066.0,
+      "total": 39766.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": {
+        "id": 4,
+        "name": "shivani gupta",
+        "phone": "7854214587",
+        "email": "shivani@gmail.com",
+        "total_purchases": 39766.0
+      },
+      "items": [
+        {
+          "id": 9,
+          "invoice_id": 35,
+          "product_id": 9,
+          "quantity": 1,
+          "unit_price": 34500.0,
+          "total_price": 34500.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 9,
+            "name": "Chronos Watch V2",
+            "sku": "CW-20",
+            "category": "Smartwatch",
+            "price": 34500.0,
+            "cost_price": 27600.0,
+            "stock_qty": 19,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Chronos",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "invoice_number": "INV-1778193235",
+      "customer_id": 2,
+      "date": "2026-05-08 04:03:55.374143",
+      "subtotal": 129999.0,
+      "gst_amount": 22680.0,
+      "total": 148679.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": {
+        "id": 2,
+        "name": "rekha srivastava",
+        "phone": "1254789630",
+        "email": "rekha@gmail.com",
+        "total_purchases": 152220.0
+      },
+      "items": [
+        {
+          "id": 10,
+          "invoice_id": 36,
+          "product_id": 2,
+          "quantity": 1,
+          "unit_price": 129999.0,
+          "total_price": 129999.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 2,
+            "name": "Galaxy S24 Ultra",
+            "sku": "S24U-512",
+            "category": "Mobile",
+            "price": 129999.0,
+            "cost_price": 110000.0,
+            "stock_qty": 17,
+            "min_stock": 5,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+            "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "invoice_number": "INV-1779412804",
+      "customer_id": null,
+      "date": "2026-05-22 06:50:04.330536",
+      "subtotal": 129999.0,
+      "gst_amount": 23400.0,
+      "total": 153399.0,
+      "status": "paid",
+      "payment_mode": "cash",
+      "customer": null,
+      "items": [
+        {
+          "id": 11,
+          "invoice_id": 37,
+          "product_id": 2,
+          "quantity": 1,
+          "unit_price": 129999.0,
+          "total_price": 129999.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 2,
+            "name": "Galaxy S24 Ultra",
+            "sku": "S24U-512",
+            "category": "Mobile",
+            "price": 129999.0,
+            "cost_price": 110000.0,
+            "stock_qty": 17,
+            "min_stock": 5,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+            "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "invoice_number": "INV-1780626757",
+      "customer_id": 4,
+      "date": "2026-06-05 08:02:37.451279",
+      "subtotal": 185000.0,
+      "gst_amount": 33120.0,
+      "total": 217120.0,
+      "status": "paid",
+      "payment_mode": "card",
+      "customer": {
+        "id": 4,
+        "name": "shivani gupta",
+        "phone": "7854214587",
+        "email": "shivani@gmail.com",
+        "total_purchases": 39766.0
+      },
+      "items": [
+        {
+          "id": 12,
+          "invoice_id": 38,
+          "product_id": 3,
+          "quantity": 1,
+          "unit_price": 185000.0,
+          "total_price": 185000.0,
+          "product_unit_id": null,
+          "product": {
+            "id": 3,
+            "name": "Dell XPS 15",
+            "sku": "XPS15-9530",
+            "category": "Computing",
+            "price": 185000.0,
+            "cost_price": 160000.0,
+            "stock_qty": 9,
+            "min_stock": 3,
+            "supplier_id": 21,
+            "brand": "Dell",
+            "specs": "{\"CPU\": \"i9\", \"RAM\": \"32GB\", \"SSD\": \"1TB\"}",
+            "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": 1,
+      "po_number": "PO-1000",
+      "supplier_id": 18,
+      "date": "2026-05-03 09:47:33.495089",
+      "status": "completed",
+      "total_amount": 2300000.0,
+      "expected_delivery": null,
+      "supplier": {
+        "id": 18,
+        "name": "Samsung Electronics",
+        "contact_person": "Ramesh Kumar",
+        "phone": "7854123698",
+        "email": "Ramesh@gmail.com",
+        "category": "Smartphones"
+      },
+      "items": [
+        {
+          "id": 1,
+          "po_id": 1,
+          "product_id": 1,
+          "quantity": 20,
+          "unit_price": 115000.0,
+          "total_price": 2300000.0,
+          "product": {
+            "id": 1,
+            "name": "iPhone 15 Pro",
+            "sku": "IP15P-256",
+            "category": "Mobile",
+            "price": 134900.0,
+            "cost_price": 115000.0,
+            "stock_qty": 33,
+            "min_stock": 5,
+            "supplier_id": 20,
+            "brand": "Apple",
+            "specs": "{\"RAM\": \"8GB\", \"Storage\": \"256GB\", \"Color\": \"Titanium\"}",
+            "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "po_number": "PO-1001",
+      "supplier_id": 22,
+      "date": "2026-05-03 19:11:34.554276",
+      "status": "completed",
+      "total_amount": 180000.0,
+      "expected_delivery": null,
+      "supplier": {
+        "id": 22,
+        "name": "Dolby ATMOS DBG Technology",
+        "contact_person": "SANJAY SINHA",
+        "phone": "5478125412",
+        "email": "sanjay@gmil.com",
+        "category": "Xiaomi Tablets"
+      },
+      "items": [
+        {
+          "id": 2,
+          "po_id": 2,
+          "product_id": 6,
+          "quantity": 15,
+          "unit_price": 12000.0,
+          "total_price": 180000.0,
+          "product": {
+            "id": 6,
+            "name": "Redmi Pad 2 Wi-Fi + Cellular",
+            "sku": "2505DRP06I",
+            "category": "Tablet",
+            "price": 22000.0,
+            "cost_price": 12000.0,
+            "stock_qty": 14,
+            "min_stock": 10,
+            "supplier_id": 10,
+            "brand": "Redmi",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "po_number": "PO-1002",
+      "supplier_id": 20,
+      "date": "2026-05-05 07:51:21.077524",
+      "status": "completed",
+      "total_amount": 1700000.0,
+      "expected_delivery": null,
+      "supplier": {
+        "id": 20,
+        "name": "Apple Distributors",
+        "contact_person": "Anita Sharma",
+        "phone": "9123456789",
+        "email": "contact@apple-dist.com",
+        "category": "Mobile"
+      },
+      "items": [
+        {
+          "id": 3,
+          "po_id": 3,
+          "product_id": 19,
+          "quantity": 20,
+          "unit_price": 85000.0,
+          "total_price": 1700000.0,
+          "product": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "po_number": "PO-202605-1001",
+      "supplier_id": 12,
+      "date": "2026-04-29T09:29:26.654460",
+      "status": "Cancelled",
+      "total_amount": 3884000.0,
+      "expected_delivery": "2026-05-04T09:29:26.654460",
+      "supplier": {
+        "id": 12,
+        "name": "Dell India Pvt Ltd",
+        "contact_person": "Suresh Rao",
+        "phone": "9876543205",
+        "email": "suresh@dell.in",
+        "category": "Laptops"
+      },
+      "items": [
+        {
+          "id": 4,
+          "po_id": 4,
+          "product_id": 21,
+          "quantity": 6,
+          "unit_price": 75000.0,
+          "total_price": 450000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 5,
+          "po_id": 4,
+          "product_id": 12,
+          "quantity": 9,
+          "unit_price": 68000.0,
+          "total_price": 612000.0,
+          "product": {
+            "id": 12,
+            "name": "Tab Master X",
+            "sku": "TMX-99",
+            "category": "Tablet",
+            "price": 85000.0,
+            "cost_price": 68000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "TabMaster",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 6,
+          "po_id": 4,
+          "product_id": 7,
+          "quantity": 12,
+          "unit_price": 116000.0,
+          "total_price": 1392000.0,
+          "product": {
+            "id": 7,
+            "name": "Legion Pro Max",
+            "sku": "LPM-900",
+            "category": "Laptop",
+            "price": 145000.0,
+            "cost_price": 116000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 13,
+            "brand": "Lenovo",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 7,
+          "po_id": 4,
+          "product_id": 2,
+          "quantity": 13,
+          "unit_price": 110000.0,
+          "total_price": 1430000.0,
+          "product": {
+            "id": 2,
+            "name": "Galaxy S24 Ultra",
+            "sku": "S24U-512",
+            "category": "Mobile",
+            "price": 129999.0,
+            "cost_price": 110000.0,
+            "stock_qty": 17,
+            "min_stock": 5,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+            "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "po_number": "PO-202605-1002",
+      "supplier_id": 8,
+      "date": "2026-04-30T09:29:26.656330",
+      "status": "In Transit",
+      "total_amount": 5300200.0,
+      "expected_delivery": "2026-05-07T09:29:26.656330",
+      "supplier": {
+        "id": 8,
+        "name": "Samsung Electronics India",
+        "contact_person": "Ramesh Kumar",
+        "phone": "9876543201",
+        "email": "ramesh@samsung.in",
+        "category": "Smartphones"
+      },
+      "items": [
+        {
+          "id": 8,
+          "po_id": 5,
+          "product_id": 11,
+          "quantity": 7,
+          "unit_price": 256000.0,
+          "total_price": 1792000.0,
+          "product": {
+            "id": 11,
+            "name": "Alpha Cam Z9",
+            "sku": "AC-Z9",
+            "category": "Camera",
+            "price": 320000.0,
+            "cost_price": 256000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Alpha",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 9,
+          "po_id": 5,
+          "product_id": 5,
+          "quantity": 19,
+          "unit_price": 65000.0,
+          "total_price": 1235000.0,
+          "product": {
+            "id": 5,
+            "name": "Samsung QLED 4K TV",
+            "sku": "QLED-55",
+            "category": "Electronics",
+            "price": 85000.0,
+            "cost_price": 65000.0,
+            "stock_qty": 8,
+            "min_stock": 2,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"Size\": \"55 inch\", \"Panel\": \"QLED\"}",
+            "image_url": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 10,
+          "po_id": 5,
+          "product_id": 8,
+          "quantity": 17,
+          "unit_price": 89600.0,
+          "total_price": 1523200.0,
+          "product": {
+            "id": 8,
+            "name": "X-Phone Ultra",
+            "sku": "XPU-882",
+            "category": "Smartphone",
+            "price": 112000.0,
+            "cost_price": 89600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "X-Brand",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 11,
+          "po_id": 5,
+          "product_id": 21,
+          "quantity": 10,
+          "unit_price": 75000.0,
+          "total_price": 750000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "po_number": "PO-202605-1003",
+      "supplier_id": 13,
+      "date": "2026-04-12T09:29:26.656489",
+      "status": "Completed",
+      "total_amount": 2991200.0,
+      "expected_delivery": "2026-04-22T09:29:26.656489",
+      "supplier": {
+        "id": 13,
+        "name": "HP India Solutions",
+        "contact_person": "Kavita Singh",
+        "phone": "9876543206",
+        "email": "kavita@hp.in",
+        "category": "Laptops"
+      },
+      "items": [
+        {
+          "id": 12,
+          "po_id": 6,
+          "product_id": 5,
+          "quantity": 6,
+          "unit_price": 65000.0,
+          "total_price": 390000.0,
+          "product": {
+            "id": 5,
+            "name": "Samsung QLED 4K TV",
+            "sku": "QLED-55",
+            "category": "Electronics",
+            "price": 85000.0,
+            "cost_price": 65000.0,
+            "stock_qty": 8,
+            "min_stock": 2,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"Size\": \"55 inch\", \"Panel\": \"QLED\"}",
+            "image_url": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 13,
+          "po_id": 6,
+          "product_id": 8,
+          "quantity": 13,
+          "unit_price": 89600.0,
+          "total_price": 1164800.0,
+          "product": {
+            "id": 8,
+            "name": "X-Phone Ultra",
+            "sku": "XPU-882",
+            "category": "Smartphone",
+            "price": 112000.0,
+            "cost_price": 89600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "X-Brand",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 14,
+          "po_id": 6,
+          "product_id": 9,
+          "quantity": 14,
+          "unit_price": 27600.0,
+          "total_price": 386400.0,
+          "product": {
+            "id": 9,
+            "name": "Chronos Watch V2",
+            "sku": "CW-20",
+            "category": "Smartwatch",
+            "price": 34500.0,
+            "cost_price": 27600.0,
+            "stock_qty": 19,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Chronos",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 15,
+          "po_id": 6,
+          "product_id": 21,
+          "quantity": 14,
+          "unit_price": 75000.0,
+          "total_price": 1050000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "po_number": "PO-202605-1004",
+      "supplier_id": 19,
+      "date": "2026-04-22T09:29:26.656595",
+      "status": "Completed",
+      "total_amount": 3321800.0,
+      "expected_delivery": "2026-04-28T09:29:26.656595",
+      "supplier": {
+        "id": 19,
+        "name": "Samsung India",
+        "contact_person": "Rajesh Kumar",
+        "phone": "9876543210",
+        "email": "sales@samsung.in",
+        "category": "Electronics"
+      },
+      "items": [
+        {
+          "id": 16,
+          "po_id": 7,
+          "product_id": 21,
+          "quantity": 19,
+          "unit_price": 75000.0,
+          "total_price": 1425000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 17,
+          "po_id": 7,
+          "product_id": 9,
+          "quantity": 18,
+          "unit_price": 27600.0,
+          "total_price": 496800.0,
+          "product": {
+            "id": 9,
+            "name": "Chronos Watch V2",
+            "sku": "CW-20",
+            "category": "Smartwatch",
+            "price": 34500.0,
+            "cost_price": 27600.0,
+            "stock_qty": 19,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Chronos",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 18,
+          "po_id": 7,
+          "product_id": 13,
+          "quantity": 5,
+          "unit_price": 124000.0,
+          "total_price": 620000.0,
+          "product": {
+            "id": 13,
+            "name": "Aero Drone 4K",
+            "sku": "AD-4K",
+            "category": "Drone",
+            "price": 155000.0,
+            "cost_price": 124000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Aero",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 19,
+          "po_id": 7,
+          "product_id": 5,
+          "quantity": 12,
+          "unit_price": 65000.0,
+          "total_price": 780000.0,
+          "product": {
+            "id": 5,
+            "name": "Samsung QLED 4K TV",
+            "sku": "QLED-55",
+            "category": "Electronics",
+            "price": 85000.0,
+            "cost_price": 65000.0,
+            "stock_qty": 8,
+            "min_stock": 2,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"Size\": \"55 inch\", \"Panel\": \"QLED\"}",
+            "image_url": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "po_number": "PO-202605-1005",
+      "supplier_id": 19,
+      "date": "2026-05-06T09:29:26.658572",
+      "status": "Cancelled",
+      "total_amount": 3584000.0,
+      "expected_delivery": "2026-05-11T09:29:26.658572",
+      "supplier": {
+        "id": 19,
+        "name": "Samsung India",
+        "contact_person": "Rajesh Kumar",
+        "phone": "9876543210",
+        "email": "sales@samsung.in",
+        "category": "Electronics"
+      },
+      "items": [
+        {
+          "id": 20,
+          "po_id": 8,
+          "product_id": 11,
+          "quantity": 14,
+          "unit_price": 256000.0,
+          "total_price": 3584000.0,
+          "product": {
+            "id": 11,
+            "name": "Alpha Cam Z9",
+            "sku": "AC-Z9",
+            "category": "Camera",
+            "price": 320000.0,
+            "cost_price": 256000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Alpha",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "po_number": "PO-202605-1006",
+      "supplier_id": 1,
+      "date": "2026-04-23T09:29:26.658698",
+      "status": "In Transit",
+      "total_amount": 5269000.0,
+      "expected_delivery": "2026-05-03T09:29:26.658698",
+      "supplier": {
+        "id": 1,
+        "name": "Samsung Electronics",
+        "contact_person": "Ramesh Kumar",
+        "phone": "7854123690",
+        "email": "rameshkumar@gmail.com",
+        "category": "Smartphones"
+      },
+      "items": [
+        {
+          "id": 21,
+          "po_id": 9,
+          "product_id": 7,
+          "quantity": 8,
+          "unit_price": 116000.0,
+          "total_price": 928000.0,
+          "product": {
+            "id": 7,
+            "name": "Legion Pro Max",
+            "sku": "LPM-900",
+            "category": "Laptop",
+            "price": 145000.0,
+            "cost_price": 116000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 13,
+            "brand": "Lenovo",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 22,
+          "po_id": 9,
+          "product_id": 4,
+          "quantity": 13,
+          "unit_price": 95000.0,
+          "total_price": 1235000.0,
+          "product": {
+            "id": 4,
+            "name": "MacBook Air M3",
+            "sku": "MBA-M3-13",
+            "category": "Computing",
+            "price": 114900.0,
+            "cost_price": 95000.0,
+            "stock_qty": 25,
+            "min_stock": 10,
+            "supplier_id": 20,
+            "brand": "Apple",
+            "specs": "{\"Chip\": \"M3\", \"RAM\": \"8GB\", \"SSD\": \"256GB\"}",
+            "image_url": "https://images.unsplash.com/photo-1517336714460-4c50d117900b?auto=format&fit=crop&q=80&w=800"
+          }
+        },
+        {
+          "id": 23,
+          "po_id": 9,
+          "product_id": 21,
+          "quantity": 10,
+          "unit_price": 75000.0,
+          "total_price": 750000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 24,
+          "po_id": 9,
+          "product_id": 13,
+          "quantity": 19,
+          "unit_price": 124000.0,
+          "total_price": 2356000.0,
+          "product": {
+            "id": 13,
+            "name": "Aero Drone 4K",
+            "sku": "AD-4K",
+            "category": "Drone",
+            "price": 155000.0,
+            "cost_price": 124000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Aero",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "po_number": "PO-202605-1007",
+      "supplier_id": 10,
+      "date": "2026-04-26T09:29:26.658797",
+      "status": "Cancelled",
+      "total_amount": 301589.60000000003,
+      "expected_delivery": "2026-05-05T09:29:26.658797",
+      "supplier": {
+        "id": 10,
+        "name": "Xiaomi Technology India",
+        "contact_person": "Anil Gupta",
+        "phone": "9876543203",
+        "email": "anil@xiaomi.in",
+        "category": "Smartphones"
+      },
+      "items": [
+        {
+          "id": 25,
+          "po_id": 10,
+          "product_id": 10,
+          "quantity": 13,
+          "unit_price": 23199.2,
+          "total_price": 301589.60000000003,
+          "product": {
+            "id": 10,
+            "name": "Aura Sound Pro",
+            "sku": "ASP-01",
+            "category": "Headphones",
+            "price": 28999.0,
+            "cost_price": 23199.2,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Aura",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "po_number": "PO-202605-1008",
+      "supplier_id": 19,
+      "date": "2026-04-26T09:29:26.658881",
+      "status": "Pending",
+      "total_amount": 4317992.0,
+      "expected_delivery": "2026-05-02T09:29:26.658881",
+      "supplier": {
+        "id": 19,
+        "name": "Samsung India",
+        "contact_person": "Rajesh Kumar",
+        "phone": "9876543210",
+        "email": "sales@samsung.in",
+        "category": "Electronics"
+      },
+      "items": [
+        {
+          "id": 26,
+          "po_id": 11,
+          "product_id": 11,
+          "quantity": 10,
+          "unit_price": 256000.0,
+          "total_price": 2560000.0,
+          "product": {
+            "id": 11,
+            "name": "Alpha Cam Z9",
+            "sku": "AC-Z9",
+            "category": "Camera",
+            "price": 320000.0,
+            "cost_price": 256000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Alpha",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 27,
+          "po_id": 11,
+          "product_id": 2,
+          "quantity": 13,
+          "unit_price": 110000.0,
+          "total_price": 1430000.0,
+          "product": {
+            "id": 2,
+            "name": "Galaxy S24 Ultra",
+            "sku": "S24U-512",
+            "category": "Mobile",
+            "price": 129999.0,
+            "cost_price": 110000.0,
+            "stock_qty": 17,
+            "min_stock": 5,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+            "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 28,
+          "po_id": 11,
+          "product_id": 10,
+          "quantity": 10,
+          "unit_price": 23199.2,
+          "total_price": 231992.0,
+          "product": {
+            "id": 10,
+            "name": "Aura Sound Pro",
+            "sku": "ASP-01",
+            "category": "Headphones",
+            "price": 28999.0,
+            "cost_price": 23199.2,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Aura",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 29,
+          "po_id": 11,
+          "product_id": 6,
+          "quantity": 8,
+          "unit_price": 12000.0,
+          "total_price": 96000.0,
+          "product": {
+            "id": 6,
+            "name": "Redmi Pad 2 Wi-Fi + Cellular",
+            "sku": "2505DRP06I",
+            "category": "Tablet",
+            "price": 22000.0,
+            "cost_price": 12000.0,
+            "stock_qty": 14,
+            "min_stock": 10,
+            "supplier_id": 10,
+            "brand": "Redmi",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "po_number": "PO-202605-1009",
+      "supplier_id": 15,
+      "date": "2026-04-24T09:29:26.658977",
+      "status": "Completed",
+      "total_amount": 4620000.0,
+      "expected_delivery": "2026-05-02T09:29:26.658977",
+      "supplier": {
+        "id": 15,
+        "name": "Sony India Electronics",
+        "contact_person": "Deepa Nair",
+        "phone": "9876543208",
+        "email": "deepa@sony.in",
+        "category": "Audio & TV"
+      },
+      "items": [
+        {
+          "id": 30,
+          "po_id": 12,
+          "product_id": 9,
+          "quantity": 17,
+          "unit_price": 27600.0,
+          "total_price": 469200.0,
+          "product": {
+            "id": 9,
+            "name": "Chronos Watch V2",
+            "sku": "CW-20",
+            "category": "Smartwatch",
+            "price": 34500.0,
+            "cost_price": 27600.0,
+            "stock_qty": 19,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Chronos",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 31,
+          "po_id": 12,
+          "product_id": 7,
+          "quantity": 18,
+          "unit_price": 116000.0,
+          "total_price": 2088000.0,
+          "product": {
+            "id": 7,
+            "name": "Legion Pro Max",
+            "sku": "LPM-900",
+            "category": "Laptop",
+            "price": 145000.0,
+            "cost_price": 116000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 13,
+            "brand": "Lenovo",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 32,
+          "po_id": 12,
+          "product_id": 21,
+          "quantity": 6,
+          "unit_price": 75000.0,
+          "total_price": 450000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 33,
+          "po_id": 12,
+          "product_id": 8,
+          "quantity": 18,
+          "unit_price": 89600.0,
+          "total_price": 1612800.0,
+          "product": {
+            "id": 8,
+            "name": "X-Phone Ultra",
+            "sku": "XPU-882",
+            "category": "Smartphone",
+            "price": 112000.0,
+            "cost_price": 89600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "X-Brand",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "po_number": "PO-202605-1010",
+      "supplier_id": 8,
+      "date": "2026-04-13T09:29:26.659072",
+      "status": "Completed",
+      "total_amount": 1094400.0,
+      "expected_delivery": "2026-04-23T09:29:26.659072",
+      "supplier": {
+        "id": 8,
+        "name": "Samsung Electronics India",
+        "contact_person": "Ramesh Kumar",
+        "phone": "9876543201",
+        "email": "ramesh@samsung.in",
+        "category": "Smartphones"
+      },
+      "items": [
+        {
+          "id": 34,
+          "po_id": 13,
+          "product_id": 6,
+          "quantity": 5,
+          "unit_price": 12000.0,
+          "total_price": 60000.0,
+          "product": {
+            "id": 6,
+            "name": "Redmi Pad 2 Wi-Fi + Cellular",
+            "sku": "2505DRP06I",
+            "category": "Tablet",
+            "price": 22000.0,
+            "cost_price": 12000.0,
+            "stock_qty": 14,
+            "min_stock": 10,
+            "supplier_id": 10,
+            "brand": "Redmi",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800"
+          }
+        },
+        {
+          "id": 35,
+          "po_id": 13,
+          "product_id": 9,
+          "quantity": 18,
+          "unit_price": 27600.0,
+          "total_price": 496800.0,
+          "product": {
+            "id": 9,
+            "name": "Chronos Watch V2",
+            "sku": "CW-20",
+            "category": "Smartwatch",
+            "price": 34500.0,
+            "cost_price": 27600.0,
+            "stock_qty": 19,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Chronos",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 36,
+          "po_id": 13,
+          "product_id": 8,
+          "quantity": 6,
+          "unit_price": 89600.0,
+          "total_price": 537600.0,
+          "product": {
+            "id": 8,
+            "name": "X-Phone Ultra",
+            "sku": "XPU-882",
+            "category": "Smartphone",
+            "price": 112000.0,
+            "cost_price": 89600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "X-Brand",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "po_number": "PO-202605-1011",
+      "supplier_id": 13,
+      "date": "2026-04-15T09:29:26.659160",
+      "status": "Pending",
+      "total_amount": 2543191.2,
+      "expected_delivery": "2026-04-21T09:29:26.659160",
+      "supplier": {
+        "id": 13,
+        "name": "HP India Solutions",
+        "contact_person": "Kavita Singh",
+        "phone": "9876543206",
+        "email": "kavita@hp.in",
+        "category": "Laptops"
+      },
+      "items": [
+        {
+          "id": 37,
+          "po_id": 14,
+          "product_id": 13,
+          "quantity": 12,
+          "unit_price": 124000.0,
+          "total_price": 1488000.0,
+          "product": {
+            "id": 13,
+            "name": "Aero Drone 4K",
+            "sku": "AD-4K",
+            "category": "Drone",
+            "price": 155000.0,
+            "cost_price": 124000.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 11,
+            "brand": "Aero",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 38,
+          "po_id": 14,
+          "product_id": 10,
+          "quantity": 11,
+          "unit_price": 23199.2,
+          "total_price": 255191.2,
+          "product": {
+            "id": 10,
+            "name": "Aura Sound Pro",
+            "sku": "ASP-01",
+            "category": "Headphones",
+            "price": 28999.0,
+            "cost_price": 23199.2,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Aura",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 39,
+          "po_id": 14,
+          "product_id": 3,
+          "quantity": 5,
+          "unit_price": 160000.0,
+          "total_price": 800000.0,
+          "product": {
+            "id": 3,
+            "name": "Dell XPS 15",
+            "sku": "XPS15-9530",
+            "category": "Computing",
+            "price": 185000.0,
+            "cost_price": 160000.0,
+            "stock_qty": 9,
+            "min_stock": 3,
+            "supplier_id": 21,
+            "brand": "Dell",
+            "specs": "{\"CPU\": \"i9\", \"RAM\": \"32GB\", \"SSD\": \"1TB\"}",
+            "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "po_number": "PO-202605-1012",
+      "supplier_id": 6,
+      "date": "2026-04-16T09:29:26.659249",
+      "status": "Completed",
+      "total_amount": 2849996.0,
+      "expected_delivery": "2026-04-26T09:29:26.659249",
+      "supplier": {
+        "id": 6,
+        "name": "Samsung Electronics",
+        "contact_person": "Ramesh Kumar",
+        "phone": "9845142510",
+        "email": "rameshkumar@gmail.com",
+        "category": "Smartphone"
+      },
+      "items": [
+        {
+          "id": 40,
+          "po_id": 15,
+          "product_id": 10,
+          "quantity": 5,
+          "unit_price": 23199.2,
+          "total_price": 115996.0,
+          "product": {
+            "id": 10,
+            "name": "Aura Sound Pro",
+            "sku": "ASP-01",
+            "category": "Headphones",
+            "price": 28999.0,
+            "cost_price": 23199.2,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Aura",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 41,
+          "po_id": 15,
+          "product_id": 14,
+          "quantity": 15,
+          "unit_price": 57600.0,
+          "total_price": 864000.0,
+          "product": {
+            "id": 14,
+            "name": "Vision VR Pro",
+            "sku": "VR-200",
+            "category": "VR Headset",
+            "price": 72000.0,
+            "cost_price": 57600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 9,
+            "brand": "Vision",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 42,
+          "po_id": 15,
+          "product_id": 2,
+          "quantity": 17,
+          "unit_price": 110000.0,
+          "total_price": 1870000.0,
+          "product": {
+            "id": 2,
+            "name": "Galaxy S24 Ultra",
+            "sku": "S24U-512",
+            "category": "Mobile",
+            "price": 129999.0,
+            "cost_price": 110000.0,
+            "stock_qty": 17,
+            "min_stock": 5,
+            "supplier_id": 19,
+            "brand": "Samsung",
+            "specs": "{\"RAM\": \"12GB\", \"Storage\": \"512GB\", \"Color\": \"Black\"}",
+            "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "po_number": "PO-202605-1013",
+      "supplier_id": 17,
+      "date": "2026-05-05T09:29:26.659334",
+      "status": "Completed",
+      "total_amount": 1344000.0,
+      "expected_delivery": "2026-05-10T09:29:26.659334",
+      "supplier": {
+        "id": 17,
+        "name": "Syska Electronics",
+        "contact_person": "Ritu Pandey",
+        "phone": "9876543210",
+        "email": "ritu@syska.in",
+        "category": "Accessories"
+      },
+      "items": [
+        {
+          "id": 43,
+          "po_id": 16,
+          "product_id": 8,
+          "quantity": 15,
+          "unit_price": 89600.0,
+          "total_price": 1344000.0,
+          "product": {
+            "id": 8,
+            "name": "X-Phone Ultra",
+            "sku": "XPU-882",
+            "category": "Smartphone",
+            "price": 112000.0,
+            "cost_price": 89600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "X-Brand",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "po_number": "PO-202605-1014",
+      "supplier_id": 16,
+      "date": "2026-04-29T09:29:26.659427",
+      "status": "Pending",
+      "total_amount": 1344000.0,
+      "expected_delivery": "2026-05-09T09:29:26.659427",
+      "supplier": {
+        "id": 16,
+        "name": "OnePlus India",
+        "contact_person": "Arjun Mehta",
+        "phone": "9876543209",
+        "email": "arjun@oneplus.in",
+        "category": "Smartphones"
+      },
+      "items": [
+        {
+          "id": 44,
+          "po_id": 17,
+          "product_id": 8,
+          "quantity": 15,
+          "unit_price": 89600.0,
+          "total_price": 1344000.0,
+          "product": {
+            "id": 8,
+            "name": "X-Phone Ultra",
+            "sku": "XPU-882",
+            "category": "Smartphone",
+            "price": 112000.0,
+            "cost_price": 89600.0,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 8,
+            "brand": "X-Brand",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "po_number": "PO-202605-1015",
+      "supplier_id": 6,
+      "date": "2026-04-11T09:29:26.659504",
+      "status": "Completed",
+      "total_amount": 987585.6000000001,
+      "expected_delivery": "2026-04-21T09:29:26.659504",
+      "supplier": {
+        "id": 6,
+        "name": "Samsung Electronics",
+        "contact_person": "Ramesh Kumar",
+        "phone": "9845142510",
+        "email": "rameshkumar@gmail.com",
+        "category": "Smartphone"
+      },
+      "items": [
+        {
+          "id": 45,
+          "po_id": 18,
+          "product_id": 10,
+          "quantity": 18,
+          "unit_price": 23199.2,
+          "total_price": 417585.60000000003,
+          "product": {
+            "id": 10,
+            "name": "Aura Sound Pro",
+            "sku": "ASP-01",
+            "category": "Headphones",
+            "price": 28999.0,
+            "cost_price": 23199.2,
+            "stock_qty": 20,
+            "min_stock": 5,
+            "supplier_id": 15,
+            "brand": "Aura",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop"
+          }
+        },
+        {
+          "id": 46,
+          "po_id": 18,
+          "product_id": 4,
+          "quantity": 6,
+          "unit_price": 95000.0,
+          "total_price": 570000.0,
+          "product": {
+            "id": 4,
+            "name": "MacBook Air M3",
+            "sku": "MBA-M3-13",
+            "category": "Computing",
+            "price": 114900.0,
+            "cost_price": 95000.0,
+            "stock_qty": 25,
+            "min_stock": 10,
+            "supplier_id": 20,
+            "brand": "Apple",
+            "specs": "{\"Chip\": \"M3\", \"RAM\": \"8GB\", \"SSD\": \"256GB\"}",
+            "image_url": "https://images.unsplash.com/photo-1517336714460-4c50d117900b?auto=format&fit=crop&q=80&w=800"
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "po_number": "PO-1018",
+      "supplier_id": 20,
+      "date": "2026-05-08 04:07:27.074892",
+      "status": "completed",
+      "total_amount": 750000.0,
+      "expected_delivery": "2026-05-27 00:00:00.000000",
+      "supplier": {
+        "id": 20,
+        "name": "Apple Distributors",
+        "contact_person": "Anita Sharma",
+        "phone": "9123456789",
+        "email": "contact@apple-dist.com",
+        "category": "Mobile"
+      },
+      "items": [
+        {
+          "id": 47,
+          "po_id": 19,
+          "product_id": 21,
+          "quantity": 10,
+          "unit_price": 75000.0,
+          "total_price": 750000.0,
+          "product": {
+            "id": 21,
+            "name": "Apple Watch Ultra",
+            "sku": "AW-ULTRA-2",
+            "category": "Wearables",
+            "price": 89900.0,
+            "cost_price": 75000.0,
+            "stock_qty": 18,
+            "min_stock": 10,
+            "supplier_id": 9,
+            "brand": "Apple",
+            "specs": null,
+            "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?q=80&w=800&auto=format&fit=crop"
+          }
+        }
+      ]
+    }
+  ]
+};
+
+// Also make it available globally on window if running in browser
+if (typeof window !== 'undefined') {
+  window.shopData = shopData;
+}
+
+// Expose as module if using ES modules or node
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = shopData;
+} else if (typeof exports !== 'undefined') {
+  exports.default = shopData;
+}
